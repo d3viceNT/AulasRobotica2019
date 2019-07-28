@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
 
-		<title>reveal.js</title>
+		<title>Aula 01 - hello friend!</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/mystyle.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/monokai.css">
@@ -24,19 +27,188 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+			<div class="slides" >
+				<section id="firstSlide" data-background-image="/img/backgroundS1.png">
+					<div id="titulo">
+						<h1>Robótica e Empreendedorismo</h1>
+					</div>
+					<div id="logos">
+						<img id="logoCriciuma" src="./img/criciuma.png" alt="Pref Criciuma">
+						<img id="logoSatc" src="./img/satc.jpg" alt="Satc">
+					</div>
+				</section>
+				
+				<section id="secondSlide"  data-background-color="#f3f5f7">
+					<aside id="sideCurriculo">
+						<img src="./img/me.png" alt="Marco Aurélio">
+						<div id="nome">
+							<p class="textLight">Marco Aurélio</p>  
+							<p class="textStrong">Oliveira Rocha</p>  
+						</div>
+						<div id="line"></div>
+						<div id="social" class="textLight">
+							<p>
+								<img src="./img/wp.png" alt="WhatsApp">
+								(48) 998219908
+							</p>
+							<p>
+								<img src="./img/email.png" alt="Instagram">
+								<span>marco.rocha@satc.edu.br</span>
+							</p>
+							<p>
+								<img src="./img/insta.png" alt="Instagram">
+								@nod3vice
+							</p>
+							<p>
+								<img src="./img/twitter.png" alt="Twitter">
+								@nod3vice
+							</p>
+						</div>
+					</aside>
+					<div id="sobre" class="textStrong">
+						<p class="textLight">Graduando em: </p>
+						Engenharia Mecatrônica
+						<p class="textLight">Entusiasta em: </p>
+						<ul>
+							<li>
+								<div id="linux">
+									Open Source
+									<img src="./img/pingu.png" alt="Linux">
+								</div>
+							</li>
+							<li>
+								<div id="programacao">
+									Programação
+									<img src="./img/js.png" alt="Javascript">
+									<img src="./img/python.png" alt="Python">
+								</div>
+							</li>
+							<li>Robótica</li>	
+						</ul>
+						<p class="textLight">Show me the code! </p>
+						<div id="git">
+							<img src="./img/git.png" alt="GitHub">
+							<span>github.com/nod3vice</span>
+						</div>
+					</div>
+				</section>
+				<section id="thirdSlide" data-background-image="./img/backgroundS2.jpg">
+					<div id="divBack">
+						<h2>Inserção no mundo digital</h2>
+						<p class="textLight">
+							Criaremos nossos logins, utilizaremos senhas seguras, aprenderemos a criptografar ;-)
+						</p>
+						<ul>
+							<li>Criação de logins</li>
+							<span>Plataforma Google, TinkerCad</span>
+							<li>Criptografia</li>
+							<span>Na prática \o/</span>
+							<li>Segurança da informação</li>
+							<span>"Saber como hackear não significa que você vai sair e roubar bancos." - <cite>John McAfee</cite></span>
+						</ul>
+					</div>
+				</section>
+				<section id="fourthSlide" data-background-color="#3AAB50">
+					<aside>
+						<img id="logoGoogle" src="./img/google.gif" alt="Google Logo">
+						<div id="svGoogle">
+							<img id="drive" src="./img/drive.png" alt="Google Drive">
+							<img id="gmail" src="./img/gmail.png" alt="Gmail">
+							<img id="docs" src="./img/docs.jpg" alt="Google Docs">
+						</div>
+					</aside>
+					<img id="opensource" src="./img/opensource.png" alt="Open Source">
+					<p>
+						<div id="txtOpenSource">
+							Software <em>open source</em> é o software com o seu código fonte disponibilizado 
+							e licenciado com uma licença de <em>código aberto</em> no qual todos possuem o direito de estudar, 
+							modificar e distribuir o software de graça para qualquer um e para qualquer finalidade.
+						</div>
+					</p>
+				</section>
+				<section id="fifthSlide" data-background-image="./img/backgroundS5.png">
+					<div>
+						<p><h1>Vamos criar uma conta Google?</h1></p>
+						<p><h3>www.google.com</h3></p>
+						<p><h2>Precisa ser conta Google?</h2></p>
+						<p><span>
+							Temos outras opções de plataformas e todas devem ser exploradas, ou até, porque não, utilizadas. 
+							Não precisamos nos limitar a um modelo de conta em um fabricante apenas.
+							 Porém, durante as aulas faremos uso de exemplos pela plataforma Google. Além disso, 
+							 vocês terão acesso ao portal SATC e também aplicativo SATC, com isso algumas aulas serão postadas também por lá.
+						</span></p>
+				</div>
+				</section>
+				<section id="sixthSlide"  data-background-color="#FFF">
+					<aside>
+						<img id="contaTinker" src="./img/tinker.png" alt="Conta TinkerCad">
+					</aside>
+					<img id="logoTinker" src="./img/tinkercadLogo.png" alt="TinkerCad">
+					<div id="txtTinker">
+						<p><h1>Plataforma de prototipagem 3D, eletrônica e programação</h1></p>
+						<p>
+							<span>
+								O TinkerCad é um aplicativo gratuito e fácil de usar para projetos 3D, 
+							prototipação eletrônica e programação.
+							</span>
+							<p><h2>Vamos criar uma conta no TinkerCad?</h2></p>  
+						</p>
+					</div>
+				</section>
+				<section id="seventhSlide" data-background-image="./img/hack.png">
+					<h1>Seus dados estão seguros?</h1>
+				</section>
+				<section id="eighthSlide">
+					<video id="OSINT" width="100%" controls controlsList="nodownload">
+							<source src="/video/OSINT.mp4" type="video/mp4">
+					</video>
+				</section>
+				<section id="ninthSlide" data-background-image="./img/IG.jpg">
+					<div>
+						<h1>Um modelo de proteção</h1>
+						<p>Um dos meios mais utilizados por programas, plataformas e aplicativos, é denominada <span>criptografia</span>. 
+						A criptografia normalmente possui regras geradas pelo desenvolvedor, e qualquer um tem a possibilidade 
+						de gerar suas próprias regras.</p>
+						<h2>Bora tentar &#128073</h2>
+					</div>
+				</section>
+				<section id="criptoSlide">
+					<h1>Spcpujdb3120</h1> 
+					<span class="fragment fade-in">
+						<h2>Robotica2019</h2>
+					</span>
+				</section>
+				<section id="attacks">
+					  <iframe data-src="https://threatmap.fortiguard.com/"></iframe>
+				</section>
+				<section  id="criptoArduino" data-background-image="./img/backgroundS5.png">
+					<div>
+						<h1>Vamos usar o Arduino para criptografar?</h1>
+						<h2>http://bit.ly/2yh5mOP</h2>
+					</div>
+				</section>
+				<section id="lastSlide" data-background-image="/img/backgroundS1.png">
+					<img id="qrcode" src="./img/qrcode.png" alt="Pesquisa">
+					<p>http://bit.ly/2MlkC5J</p>
+					<div id="logos">
+							<img id="logoCriciuma" src="./img/criciuma.png" alt="Pref Criciuma">
+							<img id="logoSatc" src="./img/satc.jpg" alt="Satc">
+						</div>
+				</section>
 			</div>
 		</div>
 
 		<script src="js/reveal.js"></script>
-
 		<script>
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				width: "100%",
+				height: "100%",
+				margin: 100,
+				minScale: 1,
+				maxScale: 1,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },

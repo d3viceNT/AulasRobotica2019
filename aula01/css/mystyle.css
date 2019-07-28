@@ -1,0 +1,402 @@
+#firstSlide div#titulo {
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin: 30px 0px 0px 50px ;
+}
+#firstSlide h1{
+    font-family: 'Heebo', sans-serif;
+    word-wrap: normal;
+    overflow: hidden;
+    text-align: left;
+    font-size: 2em;
+}
+#logos {
+    position: fixed;
+    float: right;
+    top: 400px;
+    right: 50px;
+    width: 350px;
+    text-align: center;
+}
+#logoCriciuma {
+    margin: 0px;
+    position: relative;
+    width: 200px;
+    box-shadow: none;
+}
+#logoSatc {
+    display: inline;
+    width: 250px;
+    box-shadow: none;
+}
+#secondSlide {
+    margin: 0px;
+    padding: 0px;
+}
+#sideCurriculo {
+    float: left;
+    width: 25%;
+    height: 1000px;
+    background-color: rgb(18, 19, 19);
+}
+#sideCurriculo img {
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+    width: 100%;
+}
+#nome {
+    text-align: center;
+    max-height: 100px;
+    min-width: 80%;
+    overflow: hidden;
+}
+#nome p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 35px;
+    
+}
+.textLight {
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: #babcbd ;
+}
+
+.textStrong {
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #ffffff ;
+}
+#line {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border: solid 1.5px #519BAA;
+}
+
+#social {
+    border: none;
+    min-width: 100px;
+    font-size: 21px;
+    text-align: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#social img {
+    background: none;
+    width: 32px;
+    height: 32px;
+}
+
+#sobre {
+    margin-top: 10%;
+    margin-left: 40%;
+    color: rgb(25, 26, 25);
+    font-size: 1.2em;
+    text-align: left;
+}
+
+#git{
+    padding: 0px;
+    margin: 0px;
+}
+#git img {
+    margin:2px 0px 0px 0px;
+    width: 68px;
+    box-shadow: none;
+    border: none;
+    float: left;
+}
+#git span {
+    font-size: 35px;
+    margin-left: 20px;
+}
+#sobre p {
+    color: #519BAA;
+    margin-bottom: 2px;
+}
+#sobre ul li {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#linux img {
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin: 0px;
+    width: 48px;
+}
+
+#programacao img {
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin: 0px;
+    width: 40px;
+}
+
+
+#divBack { 
+    font-family: 'Heebo', sans-serif;
+    margin:  3% 10% ;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.932)
+}
+#divBack p{
+    width: 60%;
+    margin-left: 6%;
+    font-size: 24px;
+    color: #519BAA;
+    text-align: left;
+} 
+#divBack ul li{
+    padding: 0px;
+    margin: 0px;
+}
+
+#divBack span {
+    margin: 0px;
+    font-size: 18px;
+    color: rgb(72, 124, 134);
+    text-align: left;
+}
+
+#divBack cite {
+    font-style: italic;
+    font-size: 12px;
+}
+#fourthSlide {
+    margin: 0px;
+    padding: 0px;
+}
+#fourthSlide aside {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    background-color: #FFFFFF;
+}
+#logoGoogle {
+    border: none;
+    box-shadow: none;
+    background: none;
+    width: 80%;
+}
+
+#svGoogle {
+    width: 100%;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#svGoogle img{    
+    position: relative;
+    border: none;
+    box-shadow: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;    
+    overflow: hidden;
+}
+#drive {
+    width: 200px;
+    position: relative;
+    float: left;
+    left: 50px;
+}
+#gmail {
+    width: 200px;
+    position: relative;
+    float: right;
+    top: 100px;
+    right: 50px;
+}
+#docs {
+    width: 260px;
+    position: relative;
+    float: left;
+    top: 250px;
+    left: -60px;
+}
+#opensource{
+    border: none;
+    box-shadow: none;
+    background: none;
+    width: 500px;
+}
+#txtOpenSource {
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0px 0px 0px 50%;
+    padding: 30px;
+    font-size: 28px;
+    font-weight: lighter;
+}
+#fifthSlide div {
+    font-family: 'Heebo', sans-serif;
+    margin:  2% 10% ;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.877)
+}
+#fifthSlide h1, #fifthSlide h2 {
+    color: rgb(48, 230, 84); 
+    font-size: 1em;
+}
+#fifthSlide h3 {
+    text-decoration: none;
+    color: rgb(197, 199, 201);
+    font-size: 1.2em;
+    text-transform: none;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+#fifthSlide span {
+    font-size: .6em;
+    color: rgb(197, 199, 201);
+    font-style: italic;
+}
+#sixthSlide {
+    margin: 0px;
+    padding: 0px;
+}
+#sixthSlide aside {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    
+}
+#contaTinker {
+    border: none;
+    background: none;
+    box-shadow: none;   
+    width: 100%;
+}
+#logoTinker {
+    border: none;
+    background: none;
+    box-shadow: none;
+    width: 400px;
+}
+#txtTinker {
+    position: absolute;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 0px 0px 0px 50%;
+    padding: 30px;
+    font-family: 'Heebo', sans-serif;
+}
+#txtTinker h1 {
+    font-size: 32px;
+    font-weight: bolder
+}
+#txtTinker h2 {
+    margin-top: 50px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgb(29, 160, 79);
+}
+#txtTinker p {
+    line-height: 1;
+}
+#txtTinker p span {
+    line-height: 0.9px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+#seventhSlide h1 {
+    margin: 10% 0px 0px 45%;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.6em;
+}
+#ninthSlide div{
+    font-family: 'Heebo', sans-serif;
+    margin:  2% 10% ;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.719)
+}
+#ninthSlide h1 {
+    font-size: 1.5em;
+    font-weight: bolder
+}
+#ninthSlide p {
+    margin-top: 50px;
+    color: rgb(197, 199, 201);
+    font-style: .5em;
+}
+#ninthSlide span {
+    font-weight: bolder;
+    color: #B23A40;
+}
+#ninthSlide h2 {
+    font-size: 1.4em;
+    margin: 120px 0px 0px 50%;
+}
+
+#criptoSlide h1{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 15%;
+}
+
+#criptoSlide h2{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 30px;
+    font-size: 1.8em;
+    color: rgb(29, 160, 79);
+}
+#attacks {
+    margin: 0px;
+    padding: 0px;
+}
+#attacks iframe {
+    width: 100%;
+    height: 768px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#criptoArduino div {
+    font-family: 'Heebo', sans-serif;
+    margin:  5% 15%;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#criptoArduino h1 {
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(29, 160, 79);
+}
+#criptoArduino h2{
+    margin: 80px 0px;
+    text-transform: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    font-style: italic;
+    color:#FFF;
+}
+#lastSlide #qrcode {
+    float: left;
+    margin: 80px 180px;
+    width: 300px;
+}
+#lastSlide p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    font-weight: bolder;
+    position: absolute;
+    float: left;
+    margin: 420px 120px;
+}
