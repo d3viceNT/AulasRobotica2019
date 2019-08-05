@@ -149,13 +149,13 @@
     font-family: 'Heebo', sans-serif;
     margin:  3% 10% ;
     padding: 50px;
-    background-color: rgba(0, 0, 0, 0.932)
+    background-color: rgba(12, 12, 12, 0.904)
 }
 #divBack p{
-    width: 60%;
+    width: 80%;
     margin-left: 6%;
     font-size: 24px;
-    color: #519BAA;
+    color: rgb(83, 202, 226);
     text-align: left;
 } 
 #divBack ul li{
@@ -165,8 +165,8 @@
 
 #divBack span {
     margin: 0px;
-    font-size: 18px;
-    color: rgb(72, 124, 134);
+    font-size: 22px;
+    color: rgb(83, 202, 226);
     text-align: left;
 }
 
@@ -246,8 +246,11 @@
 }
 #fifthSlide div {
     font-family: 'Heebo', sans-serif;
+    background-image: url('../img/backGoogle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin:  2% 10% ;
-    padding: 20px;
+    padding: 250px 40px 20px 40px;
     background-color: rgba(0, 0, 0, 0.877)
 }
 #fifthSlide h1, #fifthSlide h2 {
@@ -256,15 +259,12 @@
 }
 #fifthSlide h3 {
     text-decoration: none;
-    color: rgb(197, 199, 201);
-    font-size: 1.2em;
-    text-transform: none;
-    font-style: italic;
-    margin-bottom: 50px;
+    color: rgb(48, 230, 84);
+    font-size: .7em;
 }
 #fifthSlide span {
     font-size: .6em;
-    color: rgb(197, 199, 201);
+    color: rgb(18, 18, 19);
     font-style: italic;
 }
 #sixthSlide {
