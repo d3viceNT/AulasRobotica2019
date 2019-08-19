@@ -1,0 +1,152 @@
+
+#firstSlide div#titulo {
+    position: relative;
+    width: 90%;
+    height: 200px;
+    margin: 30px 0px 0px 50px ;
+}
+#firstSlide h1{
+    font-family: 'Heebo', sans-serif;
+    word-wrap: normal;
+    overflow: hidden;
+    text-align: left;
+    font-size: 2em;
+}
+#logos {
+    position: fixed;
+    float: right;
+    top: 400px;
+    right: 50px;
+    width: 350px;
+    text-align: center;
+}
+#logoCriciuma {
+    margin-top: 80px;
+    position: relative;
+    width: 200px;
+    box-shadow: none;
+}
+#logoSatc {
+    display: inline;
+    width: 250px;
+    box-shadow: none;
+}
+#secondSlide h1 {
+    margin: 100px 50px; 
+}
+#secondSlide ul li{
+    display: inline-block;
+    margin: 50px 30px;
+}
+#secondSlide img{
+    width: 200px;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+#thirdSlide img {
+    height:768px ;
+}
+#atalhos {
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 750px;
+    width: 90%;
+    margin-left: 5%; 
+    padding-top: 30px; 
+}
+#atalhos h1 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5em;
+}
+#atalhos ul {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    line-height: 1.8em;
+    color: #fff;
+    margin: 2% 0% 0% 50%;
+}
+#fifthSlide div{
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 90%;
+    margin: 1% 5%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+#fifthSlide div img {
+    width: 700px;
+    margin-top: 100px;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+#sixthSlide  div {
+    position: absolute;
+    margin: 5% 10%; 
+}
+
+#sixthSlide  h1 {
+    color: rgb(25, 121, 201);
+    margin-bottom: 40px;
+}
+
+#sixthSlide  img {
+    position: absolute;
+    float: right;
+    width: 300px;
+    margin-left: 10%;   
+    margin-top: 25%;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+#seventhSlide  div {
+    position: absolute;
+    text-align: left;
+    margin: 5% 10%; 
+}
+
+#seventhSlide  ul {
+    margin: 5% 10%; 
+}
+#seventhSlide  h1 {
+    color: #2C8059;
+    margin-bottom: 40px;
+}
+
+#seventhSlide  img {
+    position: absolute;
+    float: right;
+    width: 300px;
+    margin-left: 20%;   
+    margin-top: 25%;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+
+#eighthSlide  div {
+    position: absolute;
+    text-align: left;
+    margin: 5% 10%; 
+}
+
+/* #seventhSlide  ul {
+    margin: 5% 10%; 
+} */
+#eighthSlide  h1 {
+    color: #C95E45;
+    margin-bottom: 40px;
+}
+
+#eighthSlide  img {
+    position: absolute;
+    float: right;
+    width: 300px;
+    margin-left: 20%;   
+    margin-top: 12%;
+    border: none;
+    box-shadow: none;
+    background: none;
+}
